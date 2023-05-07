@@ -2,10 +2,6 @@
 import styled from 'styled-components';
 
 
-
-
-
-
 const Ban = styled.div`
   border-radius:10px;
   background:#FF6060;

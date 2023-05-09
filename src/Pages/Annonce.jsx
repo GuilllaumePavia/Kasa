@@ -1,6 +1,4 @@
-
-import BoxD from '../Components/BoxDescription/BoxD';
-import BoxE from '../Components/BoxEquipement/BoxE';
+import Box from '../Components/Box/Box';
 import InfoAppart from '../Components/InfoAppart/InfoAppart';
 import Caroussel from '../Components/Caroussel/Caroussel';
 import Footer from '../Components/Footer/Footer';
@@ -12,8 +10,8 @@ function Annonce() {
         <Caroussel/>
         <InfoAppart/>
         <div className='BoxxOrga'>
-        <BoxD/>
-        <BoxE/>
+        <Box titre={"Description"} texte={"Texte1"}/>
+        <Box titre={"Equipement"} texte={"Texte2"}/>
         </div>
         <Footer/>
       </div>

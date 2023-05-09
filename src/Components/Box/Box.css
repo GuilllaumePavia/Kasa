@@ -1,4 +1,4 @@
-.Accord-D {
+.Accord {
   width:48%;
   height:auto;
   border-radius: 3px;
@@ -6,7 +6,7 @@
   margin-bottom:50px;  
 }
 
-.AccordVisible-D {
+.AccordVisible {
   background:#FF6060;
   color: #fff;
   cursor: pointer;
@@ -17,7 +17,7 @@
   border-radius: 10px;
 }
 
-.Titre-D {
+.Titre {
 font-size: 20px;
 color:rgb(255, 255, 255);
 font-family: 'Montserrat';
@@ -25,18 +25,18 @@ font-style: normal;
 font-weight: 500;
 }
 
-.ImgChevron-D {
+.ImgChevron {
   width:8%;
   filter:invert(100%);
 }
 
-.ImgChevron-D-inverse {
+.ImgChevron-inverse {
   width:8%;
   transform: rotate(180deg);
   filter:invert(100%);
 }
 
-.AccordToggle-D {
+.AccordToggle {
 font-size: 18px;
 opacity:1;
 background-color:#F6F6F6;
@@ -45,14 +45,14 @@ transition:
 height  0.4s ease-in-out;
 }
 
-.Animated-D {
+.Animated {
   transition:
   height 0.4s 0.4s ease-in-out,
  
 }
 
 
-.Texte-D {
+.Texte {
 opacity: 0;
 margin: 0;
 padding: 22px 15px;
@@ -68,7 +68,7 @@ font-family: 'Montserrat';
 
 }
 
-.Animated-Texte-D {
+.Animated-Texte {
   opacity:1;
   transition:
   opacity 0.4s 0.6s ease-in-out,
@@ -77,7 +77,7 @@ font-family: 'Montserrat';
 
 @media screen and (max-width: 800px) {
 
-  .Accord-D {
+  .Accord {
     width: 100%;
   }
   

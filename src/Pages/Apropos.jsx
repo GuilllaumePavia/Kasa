@@ -8,11 +8,10 @@ export default function Apropos() {
     <div>
       <BanniereApropos/>
       <div className='BoxApropos-Orga'>
-      <BoxApropos/>
-      <BoxApropos/>
-      <BoxApropos/>
-      <BoxApropos/>
-      <BoxApropos/>
+      <BoxApropos titre={"Fiabilité"} txt={"Texte1"}/>
+      <BoxApropos titre={"Respect"} txt={"Texte2"}/>
+      <BoxApropos titre={"Service"} txt={"Texte3"}/>
+      <BoxApropos titre={"Sécurité"} txt={"Texte4"}/>
      </div>
     </div>
   )

@@ -1,0 +1,12 @@
+.Ban-Apropos {
+  border-radius:10px;
+  background:#FF6060;
+  width:90%;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+

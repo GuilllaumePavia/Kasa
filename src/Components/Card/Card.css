@@ -1,0 +1,30 @@
+.Cards
+{display: flex;
+flex-direction: column;
+padding: 15px;
+background: linear-gradient(180deg, #FF6060 0%, #771e1e 100%);
+border-radius: 10px;
+width: 280px;
+height: 280px;
+transition: 200ms;
+cursor: pointer;}
+
+
+
+.CardTitle 
+{display:flex;
+justify-content: flex-start;
+margin-top:90%;}
+
+
+
+  @media screen and (max-width: 800px) {
+
+    .Cards
+    {
+    width: 80%;
+    height: 80%;
+    }
+      
+  }
+ 

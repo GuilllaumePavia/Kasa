@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.conteneur {
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.conteneur1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;  
+}
+
+
+.conteneur2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.appart-titre {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.appart-tag {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.appart-ville {
+    font-weight: 550;
+}
+
+
+.appart-metro-photo {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.appart-metro {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 80px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.appart-photo {
+    border-radius: 50%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.appart-note {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    border-radius: 11px;
+    color:white;
+    background-color: #FF6060;
+    padding: 5px 40px;
+    font-weight: 500;  
+}
+
+@media screen and (max-width: 800px) {
+
+    .conteneur {
+        flex-direction: column;
+        background-color: rgb(255, 208, 0);
+        gap:30px;
+        width: 95%;
+    }
+
+    
+    .conteneur1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;  
+    }
+    
+    
+    .conteneur2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content:space-between;
+        gap: 30px;
+    }
+
+    .appart-metro-photo {
+        display: flex;
+        gap: 60px;
+        
+    }
+  }
+  

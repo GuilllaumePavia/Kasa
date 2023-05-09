@@ -1,6 +1,18 @@
 .BoxxOrga {
   display: flex;
-  gap: 15px;
-  justify-content: center;
+  width: 90%;
+  justify-content:space-between;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
 
+
+@media screen and (max-width: 800px) {
+
+  .BoxxOrga {
+    flex-direction: column;
+    width: 95%;
+  }
+    
 }

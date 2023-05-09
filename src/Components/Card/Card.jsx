@@ -1,43 +1,18 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import './Card.css';
 // import colors from '../../utils/colors';
 
 
-const Cards = styled.div`
-display: flex;
-flex-direction: column;
-padding: 15px;
-background: linear-gradient(180deg, #FF6060 0%, rgba(0, 0, 0, 0.5) 100%);
-border-radius: 10px;
-width: 300px;
-height: 300px;
-transition: 200ms;
-&:hover {
-  cursor: pointer;
-  box-shadow: 2px 2px 10px #e2e3e9;
-}
-    &:hover {
-        cursor: pointer;
-        box-shadow: 2px 2px 10px #e2e3e9;
-    }
-`
 
-const CardTitle = styled.span`
-  display:flex;
-  justify-content: flex-start;
-  margin-top:90%;
- 
-
-`
 
 
  
 function Card({ label, title, picture }) {
     return (
        
-        <Cards>
-            <CardTitle>{title}</CardTitle>  
-        </Cards>
+        <div className='Cards'>
+            <h2 className='CardTitle'>{title}</h2>  
+        </div>
     
     )
 }

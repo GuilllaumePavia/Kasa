@@ -1,0 +1,17 @@
+.Ban-Accueil {
+  border-radius:10px;
+  background:#FF6060;
+  width:90%;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.Ban-Accueil-Texte {
+  color:white;
+  font-weight: bold;
+}
+

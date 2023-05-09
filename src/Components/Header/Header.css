@@ -1,0 +1,41 @@
+* {
+  padding:0px;
+  margin:0px;
+}
+
+.NavContainer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.NavContainerCategories {
+  display: flex;
+  gap:40px;
+  font-size: 17px;
+}
+
+.HomeLogo {
+  height: 70px;
+}
+
+.LinkDecoration {
+  text-decoration: none;
+}
+
+.LinkDecoration:hover {
+  text-decoration:underline;
+}
+
+
+@media screen and (max-width: 800px) {
+ 
+  .HomeLogo {
+    height: 150px;
+  }
+  
+}

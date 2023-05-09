@@ -1,0 +1,57 @@
+.ErrorDiv 
+{color: #FF6060;
+font-family:Montsserat;}
+
+.NumError 
+{font-size:300px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;}
+
+
+.Errorp1
+{font-size:30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;}
+
+
+.Errorp2
+{font-size:18px;
+margin-top:200px;
+text-decoration: underline;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+margin-bottom: 150px;}
+
+
+@media screen and (max-width: 800px) {
+
+  .NumError 
+{font-size:170px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;}
+
+
+.Errorp1
+{font-size:19px;
+width: 70%;
+margin-left: 50%;
+transform: translateX(-50%);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;}
+
+
+.Errorp2
+{font-size:15px;
+margin-top:200px;
+text-decoration: underline;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;}
+ 
+  
+}

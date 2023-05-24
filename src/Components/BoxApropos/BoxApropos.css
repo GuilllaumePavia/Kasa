@@ -1,12 +1,10 @@
 .Accord-Ap {
   width:70%;
-  height:30px;
   border-radius: 3px;
   margin-bottom:20px;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 30px;
-
 }
 
 .AccordVisible-Ap {
@@ -49,6 +47,7 @@ height  0.4s ease-in-out;
 }
 
 .Animated-Ap {
+  
   transition:
   height 0.4s 0.4s ease-in-out,
  

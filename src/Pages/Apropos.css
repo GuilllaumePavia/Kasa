@@ -1,0 +1,13 @@
+.BoxApropos-Orga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.Item {
+    flex-grow: 1;
+}
+
+.active {
+    flex-grow: 1000;
+}

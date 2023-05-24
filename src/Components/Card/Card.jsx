@@ -7,11 +7,11 @@ import './Card.css';
 
 
  
-function Card({ label, title, picture }) {
+function Card(props) {
     return (
        
         <div className='Cards'>
-            <h2 className='CardTitle'>{title}</h2>  
+            <h2 className='CardTitle'>{props.title}</h2>  
         </div>
     
     )

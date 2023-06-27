@@ -1,25 +1,27 @@
-import {useParams} from "react-router-dom";
 import Card from '../Components/Card/Card';
 import BanniereAccueil from '../Components/BanniereAccueil/BanniereAccueil';
 import './Accueil.css';
 import Data from '../Data/logements.json';
+import React from "react";
 
-function Apropos() {
+function Accueil() {
 
-  const id = useParams().id
 
   return (
   <div>
     <BanniereAccueil/>
     <div className='CardContainer'>
       <div className='CardsContainer'>
-        {Data.map(() => (
-          <Card title={Data[id].title}/>
-        ))}
-      </div>
+        {Data.map((element, index) => <Card 
+        title={element.title} 
+        photo={element.cover} 
+        id={index} 
+        key={element.id}/>)  
+      }
+     </div>   
     </div>
   </div>
   )
 }
 
-export default Apropos
+export default Accueil

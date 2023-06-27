@@ -1,32 +1,22 @@
-import PropTypes from 'prop-types';
 import './Card.css';
-// import colors from '../../utils/colors';
+import {Link} from 'react-router-dom';
 
 
-
-
-
- 
 function Card(props) {
+
+    const sectionStyle = {
+        backgroundImage: "url(" + props.photo + ")"
+      };
+ 
     return (
-       
-        <div className='Cards'>
-            <h2 className='CardTitle'>{props.title}</h2>  
-        </div>
-    
+        <Link to= {"/Annonce/" + props.id}>
+        <div className='Cards' style={sectionStyle} >
+        <div className="Card-Title">
+           <h3>{props.title}</h3> 
+        </div> 
+       </div>
+       </Link>
     )
 }
- 
-Card.propTypes = {
-    label: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    picture: PropTypes.string.isRequired,
-}
 
-// Card.defaultProps = {
-//     title: '',
-//     label: '',
-//     picture: DefaultPicture,
-// }
- 
-export default Card
+ export default Card

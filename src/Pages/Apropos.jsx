@@ -13,7 +13,6 @@ export default function Apropos() {
       <BoxApropos titre={"Respect"} txt={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportemen t discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} className="Item"/>
       <BoxApropos titre={"Service"} txt={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportemen t discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} className="Item"/>
       <BoxApropos titre={"Sécurité"} txt={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportemen t discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} className="Item"/>
-     <Footer/>
      </div>
     </div>
   )

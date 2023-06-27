@@ -22,6 +22,10 @@
   font-weight: 500;  
 }
 
+.etoile-vide {
+  color:gray;
+}
+
 
 @media screen and (max-width: 800px) {
 

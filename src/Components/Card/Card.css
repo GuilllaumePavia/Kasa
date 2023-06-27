@@ -1,30 +1,26 @@
-.Cards
-{display: flex;
+.Cards {
+display: flex;
 flex-direction: column;
+align-items: center;
 padding: 15px;
-background: linear-gradient(180deg, #FF6060 0%, #771e1e 100%);
 border-radius: 10px;
 width: 280px;
 height: 280px;
 transition: 200ms;
-cursor: pointer;}
+cursor: pointer;
+background-size: cover;
+}
+.Card-Title {
+width:100% ;
+
+display: flex;
+align-items: flex-end;
+text-align: left;
+position: relative;
+height: 100%;
+}
 
 
 
-.CardTitle 
-{display:flex;
-justify-content: flex-start;
-margin-top:90%;}
 
 
-
-  @media screen and (max-width: 800px) {
-
-    .Cards
-    {
-    width: 80%;
-    height: 80%;
-    }
-      
-  }
- 

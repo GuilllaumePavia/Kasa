@@ -6,13 +6,12 @@
   align-items: center;
   gap: 28px;
   padding: 20px;
-  margin-top: 45px; 
+  margin-top: 105px; 
 }
 
 .LogoFooter {
   width: 80px;
   color: white;
-  filter:invert(100);
   margin-right: 30px;
 }
 

@@ -1,8 +1,14 @@
 import React from 'react'
 import './InfoAppart.css';
 import StarRating from '../Star/StarRating';
+import Data from '../../Data/logements.json';
+import {useParams} from "react-router-dom"
 
 export default function InfoAppart(props) {
+
+  const id = useParams().id
+
+
   return (
     <div className='conteneur'>
  
@@ -23,7 +29,10 @@ export default function InfoAppart(props) {
                 <h4 className='appart-metro'>{props.name}</h4>  
                 <img src={props.picture} alt="Propriétaire" className='appart-photo' />
             </div>
-            <StarRating rate={props.rate}/>
+            <StarRating rate={Data[id].rating} />
+        
+
+            
        </div>
 
 

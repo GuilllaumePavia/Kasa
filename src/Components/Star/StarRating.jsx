@@ -1,18 +1,24 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import Rating from "@mui/material/Rating";
-import Typography from "@mui/material/Typography";
+import React from 'react'
+import "./StarRating.css"
+import Pleine from "./etoile-pleine.png"
+import Vide from "./etoile-vide.png"
+
 
 export default function StarRating(props) {
-  const [value, setValue] = React.useState(2);
-  return (
-    <Box
-      sx={{
-        "& > legend": { mt: 2 },
-      }}
-    >
-      <Typography component="legend"></Typography>
-      <Rating name="read-only" value={props.rate} readOnly />
-    </Box>
-  );
+
+   const etoiles = []
+
+  for (let i = 1; i<= 5; i++) {
+       if (i<=props.rate ) {
+        etoiles.push(<img src={Pleine} alt="étoile pleine"/>) 
+       }
+       else {
+        etoiles.push(<img src={Vide} alt="étoile vide"/>)
+       }
+   }
+
+  
+  return ( 
+    <div>{etoiles}</div>
+  )
 }

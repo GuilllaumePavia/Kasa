@@ -80,7 +80,6 @@
 
     .conteneur {
         flex-direction: column;
-        background-color: rgb(255, 208, 0);
         gap:30px;
         width: 95%;
     }

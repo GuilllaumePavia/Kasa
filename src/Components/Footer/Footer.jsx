@@ -1,4 +1,5 @@
-import picture from '../assets/picture.png'
+import { Link } from 'react-router-dom';
+import Vector from './Vector-1.png'
 import './Footer.css';
 
 function Footer() {
@@ -6,7 +7,9 @@ function Footer() {
   return (
    
     <div className='Footer'>
-    <img className='LogoFooter' src={picture} alt="Logo de Kasa" />
+      <Link>
+    <img className='LogoFooter' src={Vector} alt="Logo de Kasa" />
+    </Link>
       <p className='FooterTexte'>© 2020 Kasa. All rights reserved</p>
     </div>
   

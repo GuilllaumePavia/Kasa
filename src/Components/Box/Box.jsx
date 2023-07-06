@@ -34,8 +34,8 @@ function Accordeon(props) {
     className={toggle ? `AccordToggle Animated` : `AccordToggle`} 
     style={{height: toggle ? `${heightEl}`
     :"0px"}}>
-      <p className={toggle ? 'Texte Animated-Texte' : 'Texte'}>{props.texte}
-      </p>
+      <div className={toggle ? 'Texte Animated-Texte' : 'Texte'}>{props.texte}
+      </div>
     </div>
     </div>
   )

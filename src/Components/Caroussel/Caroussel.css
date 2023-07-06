@@ -35,3 +35,16 @@
     right:0px;
     filter:invert(100%);
 }
+
+.Compteur-orga{
+    position: relative;
+    top: 94%;
+}
+
+
+@media screen and (max-width: 375px) {
+        
+    .caroussel {
+        height: 300px;
+    }
+  }

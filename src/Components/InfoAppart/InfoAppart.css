@@ -103,8 +103,30 @@
 
     .appart-metro-photo {
         display: flex;
-        gap: 60px;
-        
+        gap: 60px;  
     }
+
+    .appart-titre {
+        text-align: left;
+    }
+  }
+
+
+
+  @media screen and (max-width: 375px) {
+
+    .conteneur2 {
+        gap: 30px;  
+    }
+
+    .appart-metro-photo {
+        display: flex;
+        gap: 15px;   
+    }
+
+    .appart-titre {
+        font-size: 20px;
+    } 
+
   }
   

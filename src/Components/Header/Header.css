@@ -11,7 +11,8 @@
   width: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
-  background-color: aqua;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .NavContainerCategories {
@@ -20,17 +21,11 @@
   width: 50%;
   gap: 20%;
   font-size: 17px;
-  background-color: blue;
-}
-
-.Link-rules {
-  background-color: blueviolet;
-  transform: scale(0.5);  
 }
 
 .logo-kasa {
-  transform: translate(-50%);
   background: cover;
+  width: 150px;
 }
 
 
@@ -38,44 +33,29 @@
 @media screen and (max-width: 800px) {
 
   .NavContainer {
-  background-color: rgb(116, 189, 20);
-  justify-content: center;
-  gap: 300px;
- 
+    justify-content: center;   
+  }
+  
+  .NavContainerCategories {
+    justify-content: center;
+  }
   
 }
 
+@media screen and (max-width: 375px) {
 
-.NavContainerCategories {
-  display: flex;
-  justify-content: center;
-  width: 180px;
- 
-  font-size: 17px;
-  background-color: blue;
+  .NavContainer {
+    margin-bottom: 15px;
+  }
   
-}
+  .NavContainerCategories {
+    justify-content: center;
+    width: 70%;
+  }
 
-
-.Link-rules {
- width: 0%; 
- display: flex;
- justify-content: flex-start;
-}
-
-.logo-kasa {
-  position: relative;
-  left: 200px;
-}
-
-
-
-
-
-
- 
-  
-   
-  
+  .logo-kasa {
+    background: cover;
+    width: 110px;
+  }
   
 }

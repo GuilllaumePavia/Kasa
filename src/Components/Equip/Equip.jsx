@@ -6,7 +6,7 @@ export default function Equip(props) {
   return (
 
     <div>
-      {props.equipments.map(equipment => <div className='equip'>{equipment}</div>)}
+      {props.equipments.map((equipment, element) => <div className='equip' key={element}>{equipment}</div>)}
       </div>
   )
 }

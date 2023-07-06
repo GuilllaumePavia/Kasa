@@ -6,7 +6,7 @@ import './Header.css';
 function Header() {
   return (
     <nav className='NavContainer'>
-      <Link to="/" className='Link-rules'> 
+      <Link to="/" > 
         <img 
         src={Vector}
         alt="logo-kasa"

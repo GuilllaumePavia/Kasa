@@ -47,12 +47,9 @@ height  0.4s ease-in-out;
 }
 
 .Animated-Ap {
-  
   transition:
   height 0.4s 0.4s ease-in-out,
- 
 }
-
 
 .Texte-Ap {
 opacity: 0;
@@ -67,7 +64,6 @@ opacity  0.4s ease-in-out;
 font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
-
 }
 
 .Animated-Texte-Ap {
@@ -80,7 +76,7 @@ font-family: 'Montserrat';
 @media screen and (max-width: 800px) {
 
   .Accord-Ap {
-    width: 90%;
+    width:90%;
   }
   
 }

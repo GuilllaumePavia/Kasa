@@ -16,7 +16,9 @@ function Accueil() {
         title={element.title} 
         photo={element.cover} 
         id={index} 
-        key={element.id}/>)  
+        key={element.id} 
+        className="Card"/> 
+        )  
       }
      </div>   
     </div>

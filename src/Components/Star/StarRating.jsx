@@ -10,10 +10,10 @@ export default function StarRating(props) {
 
   for (let i = 1; i<= 5; i++) {
        if (i<=props.rate ) {
-        etoiles.push(<img src={Pleine} alt="étoile pleine"/>) 
+        etoiles.push(<img src={Pleine} alt="étoile pleine" key={i}/>) 
        }
        else {
-        etoiles.push(<img src={Vide} alt="étoile vide"/>)
+        etoiles.push(<img src={Vide} alt="étoile vide" key={i}/>)
        }
    }
 

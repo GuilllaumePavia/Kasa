@@ -15,9 +15,10 @@ function App() {
 <Header />
   <Routes>
   <Route path="/" element={<Accueil />}></Route>
-    <Route path="/Annonce/:id" element={<Annonce /> }></Route>
+    <Route path="/Annonce/:id" element={<Annonce /> } errorElement={<Error />}></Route>
     <Route path="/Apropos" element={<Apropos />} errorElement={<Error />}></Route>
     <Route path="*" element={<Error />}></Route> 
+    <Route path="/Error" element={<Error />}></Route> 
   </Routes>
   <Footer />
 </BrowserRouter>

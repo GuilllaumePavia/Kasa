@@ -13,15 +13,14 @@ export default function InfoAppart(props) {
     <div className='conteneur'>
  
 
-       <div className='conteneur1'>
+      <div className='conteneur1'>
            <h2 className='appart-titre'>{props.title}</h2>
            <h4 className='appart-ville'>{props.location}</h4>
            <div className='appart-tag'>
-      {props.tags.map(tag => <div className='tag'>{tag}</div>)}
+      {props.tags.map((tag, index) => <div className='tag' key={index}>{tag}</div>)}
+           </div>
+
       </div>
-
-    </div>
-
 
 
        <div className='conteneur2'>
@@ -30,8 +29,6 @@ export default function InfoAppart(props) {
                 <img src={props.picture} alt="Propriétaire" className='appart-photo' />
             </div>
             <StarRating rate={Data[id].rating} />
-        
-
             
        </div>
 

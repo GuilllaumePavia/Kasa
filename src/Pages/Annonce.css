@@ -26,6 +26,11 @@
   color:gray;
 }
 
+.Equipment-Orga {
+  width: 10%;
+  background-color: #140774;
+}
+
 
 @media screen and (max-width: 800px) {
 

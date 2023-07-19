@@ -19,7 +19,7 @@
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  gap: 20%;
+  gap: 8%;
   font-size: 17px;
 }
 
@@ -28,19 +28,10 @@
   width: 150px;
 }
 
-
-
-@media screen and (max-width: 800px) {
-
-  .NavContainer {
-    justify-content: center;   
-  }
-  
-  .NavContainerCategories {
-    justify-content: center;
-  }
-  
+.LinkDecoration {
+  text-decoration:underline;
 }
+
 
 @media screen and (max-width: 375px) {
 

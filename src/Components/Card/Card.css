@@ -11,13 +11,18 @@ cursor: pointer;
 background-size: cover;
 }
 
-.Card-Title {
+.Card-Title-div {
 width:100% ;
 display: flex;
 align-items: flex-end;
 text-align: left;
 position: relative;
 height: 100%;
+}
+
+.Card-Title {
+    color: #ffffff;
+    text-shadow: 0px 0px 12px black;
 }
 
 

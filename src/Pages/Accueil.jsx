@@ -1,5 +1,6 @@
 import Card from '../Components/Card/Card';
-import BanniereAccueil from '../Components/BanniereAccueil/BanniereAccueil';
+import Banniere from '../Components/Banniere/Banniere';
+import IMG from '../Components/assets/IMG.png'
 import './Accueil.css';
 import Data from '../Data/logements.json';
 import React from "react";
@@ -9,7 +10,9 @@ function Accueil() {
 
   return (
   <div>
-    <BanniereAccueil/>
+    <Banniere
+    title={"Chez vous, partout et ailleurs"}
+    img={IMG}/>
     <div className='CardContainer'>
       <div className='CardsContainer'>
         {Data.map((element, index) => <Card 
@@ -27,3 +30,4 @@ function Accueil() {
 }
 
 export default Accueil
+

@@ -11,8 +11,8 @@ function Card(props) {
     return (
         <Link to= {"/Annonce/" + props.id}>
         <div className='Cards' style={sectionStyle} >
-        <div className="Card-Title">
-           <h3>{props.title}</h3> 
+        <div className="Card-Title-div">
+           <h3 className="Card-Title">{props.title}</h3> 
         </div> 
        </div>
        </Link>

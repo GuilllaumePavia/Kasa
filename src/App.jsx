@@ -1,27 +1,13 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+
 import './App.css';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
-import Error from './Components/Error/Error';
-import Apropos from './Pages/Apropos';
-import Annonce from './Pages/Annonce';
-import Accueil from './Pages/Accueil';
+import Router from './Components/Router/Router';
+
 
 
 function App() {
   return (
     <div className="App">
-<BrowserRouter>
-<Header />
-  <Routes>
-  <Route path="/" element={<Accueil />}></Route>
-    <Route path="/Annonce/:id" element={<Annonce /> } errorElement={<Error />}></Route>
-    <Route path="/Apropos" element={<Apropos />} errorElement={<Error />}></Route>
-    <Route path="*" element={<Error />}></Route> 
-    <Route path="/Error" element={<Error />}></Route> 
-  </Routes>
-  <Footer />
-</BrowserRouter>
+      <Router/>
     </div>
   );
 }

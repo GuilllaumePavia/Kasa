@@ -11,7 +11,6 @@ function Caroussel(props) {
   const id = useParams().id
 
   const [index, setIndex] = useState(0);
-  console.log(index)
 
    const nextSlide = () => {
     setIndex(index + 1);
@@ -28,6 +27,10 @@ function Caroussel(props) {
   };
 
   const displayArrow = Data[id].pictures.length > 1
+  const displayFractionnel = props.imageCaroussel.length > 1 && Data[id].pictures.length
+
+
+
  
   return (
 <div className='caroussel'>
@@ -35,14 +38,16 @@ function Caroussel(props) {
      className='carousselShow'
      style = {{backgroundImage: `url(${props.imageCaroussel[index]})`}}>
       
+      
     { displayArrow &&
     <>
       <img src={chevronLeft} alt="chevronLeft" className='btn-left' onClick={prevSlide}/>
       <img src={chevronRight} alt="chevronLeft" className='btn-right' onClick={nextSlide}/>
     </>}
 
-   <div className='Compteur-orga'>
-    <Fractionnel num={index + 1} length={Data[id].pictures.length}/>
+   <div className='Compteur-orga hide-on-phone'>
+   {displayFractionnel && ( <Fractionnel num={index + 1} length={Data[id].pictures.length}/>
+   )}
     </div>
      </div>
       
@@ -53,3 +58,4 @@ function Caroussel(props) {
 }
 
 export default Caroussel
+

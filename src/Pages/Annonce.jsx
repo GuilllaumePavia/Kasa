@@ -9,17 +9,12 @@ import {Navigate} from 'react-router-dom';
 
 function Annonce() {
   
-
   const id = useParams().id
-  console.log(id)
-
 
 
   return (
 
-  <>
-
-
+<>
 {(id < 0 || id >= Data.length) &&  <Navigate to="/Error" replace={true}/>}
 {(id >= 0 && id < Data.length) && 
 
@@ -35,21 +30,14 @@ function Annonce() {
    />
 
    <div className='BoxxOrga'>
-   <Box titre={"Description"} texte={Data[id].description}/>
-   <Box titre={"Equipement"} texte={Data[id].equipments.map((equipment, index) => (
-   <div  key={index} >{equipment}</div>))}
-   className='Equipment-Orga'/> 
-   
+   <Box titre={"Description"} texte={Data[id].description} largeur="35%" lchevron="7%"/>
+   <Box titre={"Equipements"} texte={Data[id].equipments.map((equipment, index) => (
+   <div key={index}>{equipment}</div>))} largeur="35%" lchevron="7%"/> 
+     </div>
+   </div>  
+  }  
+ </>
 
-   </div>
- </div> 
-  
-   }
-
-      
-  </>
-
-    )
-  }
+)}
   
   export default Annonce

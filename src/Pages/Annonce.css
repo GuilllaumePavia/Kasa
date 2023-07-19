@@ -1,11 +1,11 @@
 .BoxxOrga {
   display: flex;
-  width: 90%;
-  justify-content:space-between;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  justify-content:flex-start;
   margin-top: 20px;
+  margin-left: 5%;
+  gap:40px
 }
+
 
 .appart-tag {
   display: flex;
@@ -24,11 +24,6 @@
 
 .etoile-vide {
   color:gray;
-}
-
-.Equipment-Orga {
-  width: 10%;
-  background-color: #140774;
 }
 
 

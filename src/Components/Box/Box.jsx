@@ -22,11 +22,14 @@ function Accordeon(props) {
   
   }, [])
 
+ 
   return (
-    <div className='Accord'>
+    <div className='Accord'
+    style={{width:props.largeur}}
+    >
       <div className='AccordVisible' onClick={toggleState}>
      <p className='Titre'>{props.titre}</p> 
-     <img className={toggle ?'ImgChevron-inverse' : 'ImgChevron'} src={Chevron} alt="chevron down" />
+     <img className={toggle ?'ImgChevron' : 'ImgChevron-inverse'} src={Chevron} alt="chevron down" style={{width:props.lchevron}}/>
      </div>
     
 

@@ -1,9 +1,8 @@
 .Accord {
-  width:48%;
-  height:auto;
   border-radius: 3px;
   margin-bottom:20px;
-  margin-bottom:50px;  
+  margin-bottom:50px; 
+  /* width: 38%;   */
 }
 
 .AccordVisible {
@@ -13,25 +12,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 8px;
+  padding: 8px 10px;
   border-radius: 10px;
 }
 
 .Titre {
 font-size: 20px;
-color:rgba(255, 255, 255, 0.804);
+color:white;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 }
 
 .ImgChevron {
-  width:8%;
   filter:invert(100%);
 }
 
 .ImgChevron-inverse {
-  width:8%;
   transform: rotate(180deg);
   filter:invert(100%);
 }

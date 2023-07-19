@@ -8,11 +8,17 @@ export default function Apropos() {
   return (
     <div>
       <Banniere img={IMG2}/>
-      <div className='BoxApropos-Orga'>
+      <div className='BoxApropos-Orga-Desktop'>
       <Box titre={"Fiabilité"} largeur="70%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
       <Box titre={"Respect"} largeur="70%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
       <Box titre={"Service"} largeur="70%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
       <Box titre={"Sécurité"} largeur="70%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
+     </div>
+     <div className='BoxApropos-Orga-Responsive'>
+      <Box titre={"Fiabilité"} largeur="90%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
+      <Box titre={"Respect"} largeur="90%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
+      <Box titre={"Service"} largeur="90%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
+      <Box titre={"Sécurité"} largeur="90%" lchevron="5%" texte={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entrainera une exclusion de notre plateforme."} />
      </div>
     </div>
   )

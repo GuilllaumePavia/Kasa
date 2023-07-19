@@ -1,10 +1,34 @@
-.BoxApropos-Orga {
+.BoxApropos-Orga-Desktop {
     display: flex;
     flex-direction: column;
     justify-content: center;  
     align-items: center;
-    margin-top: 50px;
     margin-left: 50%;
+    margin-top: 30px;
     transform: translateX(-50%); 
-   width: 100%;
+     width: 100%;
+     height: 40%;
 }
+
+.BoxApropos-Orga-Responsive {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .BoxApropos-Orga-Responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        margin-left: 50%;
+        transform: translateX(-50%); 
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    .BoxApropos-Orga-Desktop {
+        display: none;
+    }
+  }

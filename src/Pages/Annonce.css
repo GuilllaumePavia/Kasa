@@ -1,11 +1,17 @@
-.BoxxOrga {
+
+
+.Box-Orga-Desktop {
   display: flex;
   justify-content:flex-start;
   margin-top: 20px;
   margin-left: 5%;
-  gap:40px
+  gap:40px;
 }
 
+
+.Box-Orga-Responsive {
+  display: none;
+}
 
 .appart-tag {
   display: flex;
@@ -29,11 +35,21 @@
 
 @media screen and (max-width: 800px) {
 
-  .BoxxOrga {
+  .Box-Orga-Responsive {
+    display: flex;
     flex-direction: column;
     width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 40px;
   }
-    
+
+  .Box-Orga-Desktop {
+    display: none;
+  }
+
 }
 
 
